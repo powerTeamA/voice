@@ -277,7 +277,7 @@ jwtClient.authorize((error, tokens) => {
                             })
                             req.on('end', () => {
                                 const body = JSON.parse(temp)
-                                if (!body.userId || !body.postId) {
+                                if (!body.userId || !body.chatroomId) {
                                     console.error(`Bad Request`)
                                     res.statusCode = 400
                                     res.end()
