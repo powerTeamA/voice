@@ -39,11 +39,11 @@ const getChatroom = (chatroomId, appKey) =>
         .then((res) => res.data)
         .catch(console.error)
 // 채팅방 삭제 API
-// const deleteChatroom = (chatroomId, appKey) =>
-//     axios
-//         .delete(`${baseURL}/chatrooms/${chatroomId}.json?access_token=${appKey}`)
-//         .then((res) => res.data)
-//         .catch(console.error)
+const deleteChatroom = (chatroomId, appKey) =>
+    axios
+        .delete(`${baseURL}/chatrooms/${chatroomId}.json?access_token=${appKey}`)
+        .then((res) => res.data)
+        .catch(console.error)
 // 특정 채팅방의 메시지 조회 API
 const getMessages = (chatroomId, appKey) =>
     axios
