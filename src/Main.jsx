@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
 export default function Main() {
-    return <h1>Bye</h1>;
+    return <h1>Bye</h1>
 }
