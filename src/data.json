@@ -4,7 +4,7 @@
             "nickname": "이정주",
             "mobile": "010-1234-5678",
             "email": "leejj@example.com",
-            "createdAt": "2021-01-06T07:09:24.877Z",
+            "createdAt": "2021-01-06T07:09:24.877Z"
         },
         "0001": {
             "nickname": "김성현",
@@ -43,79 +43,227 @@
         },
         "0003": {
             "createdAt": "2021-04-15T07:52:08.656Z"
-        },
+        }
     },
     "members": {
         "0000": {
             "userID": "0000",
             "chatroomID": "0000",
-            "createdAt": "2021-03-14T23:54:42.637Z"
+            "createdAt": "2021-03-14T23:54:42.637Z",
+            "chatroomTitle": "파이썬 알고리즘 스터디",
+            "isMuted": "false"
         },
         "0001": {
             "userID": "0001",
             "chatroomID": "0000",
-            "createdAt": "2021-03-14T23:54:43.638Z"
+            "createdAt": "2021-03-14T23:54:43.638Z",
+            "chatroomTitle": "파이썬 알고리즘 스터디",
+            "isMuted": "false"
         },
         "0002": {
             "userID": "0002",
             "chatroomID": "0000",
-            "createdAt": "2021-03-15T10:14:12.278Z"
+            "createdAt": "2021-03-14T23:54:43.278Z",
+            "chatroomTitle": "파이썬 알고리즘 스터디",
+            "isMuted": "false"
         },
         "0003": {
             "userID": "0003",
             "chatroomID": "0000",
-            "createdAt": "2021-03-17T16:43:21.532Z"
+            "createdAt": "2021-03-14T23:54:43.532Z",
+            "chatroomTitle": "파이썬 알고리즘 스터디",
+            "isMuted": "true"
         },
         "0004": {
             "userID": "0004",
             "chatroomID": "0000",
-            "createdAt": "2021-03-17T17:27:54.759Z"
+            "createdAt": "2021-03-14T23:54:43.759Z",
+            "chatroomTitle": "파이썬 알고리즘 스터디",
+            "isMuted": "false"
         },
         "0005": {
             "userID": "0000",
             "chatroomID": "0001",
-            "createdAt": "2021-03-19T11:32:13.886Z"
+            "createdAt": "2021-03-19T11:32:13.886Z",
+            "chatroomTitle": "",
+            "isMuted": "true"
         },
         "0006": {
             "userID": "0002",
             "chatroomID": "0001",
-            "createdAt": "2021-03-19T22:11:13.887Z"
+            "createdAt": "2021-03-19T22:11:13.887Z",
+            "chatroomTitle": "",
+            "isMuted": "false"
         },
         "0007": {
             "userID": "0000",
             "chatroomID": "0002",
-            "createdAt": "2021-04-12T17:23:46.387Z"
+            "createdAt": "2021-04-12T17:23:46.387Z",
+            "chatroomTitle": "스터디 팀 A",
+            "isMuted": "false"
         },
         "0008": {
             "userID": "0001",
             "chatroomID": "0002",
-            "createdAt": "2021-04-12T17:23:46.537Z"
+            "createdAt": "2021-04-12T17:23:46.537Z",
+            "chatroomTitle": "스터디 팀 A",
+            "isMuted": "false"
         },
         "0009": {
             "userID": "0002",
             "chatroomID": "0002",
-            "createdAt": "2021-04-13T19:38:41.648Z"
+            "createdAt": "2021-04-12T17:23:46.648Z",
+            "chatroomTitle": "스터디 팀 A",
+            "isMuted": "false"
         },
         "0010": {
             "userID": "0002",
             "chatroomID": "0003",
-            "createdAt": "2021-04-15T07:52:09.346Z"
+            "createdAt": "2021-04-15T07:52:09.346Z",
+            "chatroomTitle": "스터디 외대팟",
+            "isMuted": "false"
         },
         "0011": {
             "userID": "0003",
             "chatroomID": "0003",
-            "createdAt": "2021-04-15T07:52:09.673Z"
+            "createdAt": "2021-04-15T07:52:09.673Z",
+            "chatroomTitle": "스터디 외대팟",
+            "isMuted": "false"
         },
         "0012": {
             "userID": "0004",
             "chatroomID": "0003",
-            "createdAt": "2021-04-15T07:52:09.766Z"
+            "createdAt": "2021-04-15T07:52:09.766Z",
+            "chatroomTitle": "스터디 외대팟",
+            "isMuted": "true"
         }
     },
     "messages": {
-        "userID": "0000",
-        "chatroomID": "0000",
-        "body": "안녕하세요! 이번 코딩 스터디장 이정주입니다.",
-        "createdAT": 
+        "0000": {
+            "userID": "0000",
+            "chatroomID": "0000",
+            "body": "안녕하세요! 이번 코딩 스터디장 이정주입니다. 반갑습니다!",
+            "createdAT": "2021-03-14T23:55:12.241Z"
+        },
+        "0001": {
+            "userID": "0002",
+            "chatroomID": "0000",
+            "body": "안녕하십니까! 이번에 새로 들어온 김현호입니다! 잘 부탁드립니다!!",
+            "createdAT": "2021-03-14T23:55:30.779Z"
+        },
+        "0002": {
+            "userID": "0001",
+            "chatroomID": "0000",
+            "body": "안녕하세염! 김성현입니다. 잘부탁드려요^~^",
+            "createdAT": "2021-03-14T23:56:58.723Z"
+        },
+        "0003": {
+            "userID": "0003",
+            "chatroomID": "0000",
+            "body": "안녕하세요! 코딩스터디원 윤현섭입니다. 모두 스터디 화이팅입니다.",
+            "createdAT": "2021-03-14T23:58:30.738Z"
+        },
+        "0004": {
+            "userID": "0004",
+            "chatroomID": "0000",
+            "body": "소개가 늦었습니다 ㅠㅠ 안녕하세요! 스터디원 기노현입니다. 함께 잘 해봐요 ㅎㅎ",
+            "createdAT": "2021-03-15T16:10:34.414Z"
+        },
+        "0005": {
+            "userID": "0000",
+            "chatroomID": "0000",
+            "body": "모두 소개해주셔서 감사합니다! 앞으로 잘 부탁드립니다.",
+            "createdAT": "2021-03-15T16:47:13.527Z"
+        },
+        "0006": {
+            "userID": "0002",
+            "chatroomID": "0000",
+            "body": "넵! 잘 부탁드립니다.",
+            "createdAT": "2021-03-15T17:12:53.798Z"
+        },
+        "0007": {
+            "userID": "0004",
+            "chatroomID": "0000",
+            "body": "넵! ㅎㅎ",
+            "createdAT": "2021-03-15T17:14:31.523Z"
+        },
+        "0008": {
+            "userID": "0001",
+            "chatroomID": "0000",
+            "body": "모두 화이팅",
+            "createdAT": "2021-03-15T18:00:02.213Z"
+        },
+        "0009": {
+            "userID": "0003",
+            "chatroomID": "0000",
+            "body": "네!",
+            "createdAT": "2021-03-15T18:32:12.453Z"
+        },
+        "0010": {
+            "userID": "0000",
+            "chatroomID": "0000",
+            "body": "내일 스터디 일정을 알려드립니다. \n 일시: 3월 17일 수요일 오후 10시00분 \n 장소: 온라인 화상회의 (zoom) \n 주제: 딥러닝 기초 (이정주) \n 많은 참여 부탁드립니다.",
+            "createdAT": "2021-03-16T22:16:23.869Z"
+        },
+        "0011": {
+            "userID": "0000",
+            "chatroomID": "0001",
+            "body": "현호야 최근 스터디에서 궁금한 내용 있어?",
+            "createdAT": "2021-03-19T11:34:14.234Z"
+        },
+        "0012": {
+            "userID": "0002",
+            "chatroomID": "0001",
+            "body": "전반적으로 헷갈리긴한데 계속 공부해보겠습니다. 감사합니다.",
+            "createdAT": "2021-03-19T11:35:23.618Z"
+        },
+        "0013": {
+            "userID": "0000",
+            "chatroomID": "0001",
+            "body": "그래 질문 있으면 언제든지 연락하고!",
+            "createdAT": "2021-03-19T11:36:57.899Z"
+        },
+        "0014": {
+            "userID": "0002",
+            "chatroomID": "0001",
+            "body": "넵! 감사합니다!",
+            "createdAT": "2021-03-19T11:43:34.238Z"
+        },
+        "0015": {
+            "userID": "0000",
+            "chatroomID": "0002",
+            "body": "안녕하세요! 스터디 A팀입니다! \n 혹시 팀장 희망하시는 분 계실까요?",
+            "createdAT": "2021-04-12T17:24:59.236Z"
+        },
+        "0016": {
+            "userID": "0001",
+            "chatroomID": "0002",
+            "body": "이번에 팀장은 제가 맡겠습니다!",
+            "createdAT": "2021-04-12T20:31:23.326Z"
+        },
+        "0017": {
+            "userID": "0002",
+            "chatroomID": "0002",
+            "body": "넵! 잘 부탁드립니다!",
+            "createdAT": "2021-04-12T21:34:18.782Z"
+        },
+        "0018": {
+            "userID": "0003",
+            "chatroomID": "0003",
+            "body": "안녕하세요! 스터디 외대팟입니다.",
+            "createdAT": "2021-04-15T07:52:20.256Z"
+        },
+        "0019": {
+            "userID": "0002",
+            "chatroomID": "0003",
+            "body": "안녕하세요! ㅎㅎ",
+            "createdAT": "2021-04-15T07:55:32.246Z"
+        },
+        "0020": {
+            "userID": "0004",
+            "chatroomID": "0003",
+            "body": "앜ㅋㅋㅋㅋㅋ 외대팟을 따로 파셨네요 ㅋㅋㅋㅋ",
+            "createdAT": "2021-04-15T07:59:01.463Z"
+        }
     }
 }
