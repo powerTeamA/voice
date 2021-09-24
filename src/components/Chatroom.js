@@ -15,12 +15,13 @@ const useStyles = makeStyles((theme: Theme) =>
             alignItems: 'center',
             flexDirection: 'column',
             position: 'relative',
+            // 채팅 창
         },
         paper2: {
             width: '80vw',
-            maxWidth: '500px',
+            maxWidth: '50px',
             display: 'flex',
-            alignItems: 'left',
+            alignItems: 'cenrer',
             flexDirection: 'column',
             position: 'relative',
         },

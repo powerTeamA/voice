@@ -24,25 +24,46 @@ export default function InsetDividers() {
                         <Image />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Photos" secondary="Jan 9, 2014" />
+                <ListItemText
+                    primary="첫 번째 채팅 0000"
+                    secondary="Mar 14, 2021"
+                />
             </ListItem>
             <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
-                        <Work />
+                        <Image />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Work" secondary="Jan 7, 2014" />
+                <ListItemText
+                    primary="두 번째 채팅 0001"
+                    secondary="Mar 19, 2021"
+                />
             </ListItem>
             <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
-                        <BeachAccess />
+                        <Image />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Vacation" secondary="July 20, 2014" />
+                <ListItemText
+                    primary="세 번째 채팅 0003"
+                    secondary="Apr 12, 2021"
+                />
+            </ListItem>
+            <Divider variant="inset" component="li" />
+            <ListItem>
+                <ListItemAvatar>
+                    <Avatar>
+                        <Image />
+                    </Avatar>
+                </ListItemAvatar>
+                <ListItemText
+                    primary="네 번째 채팅 0004"
+                    secondary="Mar 21, 2021"
+                />
             </ListItem>
         </List>
     )
