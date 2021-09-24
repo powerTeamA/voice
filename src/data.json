@@ -1,0 +1,121 @@
+{
+    "users": {
+        "0000": {
+            "nickname": "이정주",
+            "mobile": "010-1234-5678",
+            "email": "leejj@example.com",
+            "createdAt": "2021-01-06T07:09:24.877Z",
+        },
+        "0001": {
+            "nickname": "김성현",
+            "mobile": "010-2345-6789",
+            "email": "kimsh@example.com",
+            "createdAt": "2021-01-15T22:21:03.641Z"
+        },
+        "0002": {
+            "nickname": "김현호",
+            "mobile": "010-3456-7890",
+            "email": "kimhh@example.com",
+            "createdAt": "2021-01-22T05:04:27.066Z"
+        },
+        "0003": {
+            "nickname": "윤현섭",
+            "mobile": "010-4567-8901",
+            "email": "yoonhs@example.com",
+            "createdAt": "2021-02-01T16:10:03.994Z"
+        },
+        "0004": {
+            "nickname": "기노현",
+            "mobile": "010-5678-9012",
+            "email": "keenh@example.com",
+            "createdAt": "2021-02-04T09:18:52.562Z"
+        }
+    },
+    "chatrooms": {
+        "0000": {
+            "createdAt": "2021-03-14T23:54:41.636Z"
+        },
+        "0001": {
+            "createdAt": "2021-03-19T11:32:12.322Z"
+        },
+        "0002": {
+            "createdAt": "2021-04-12T17:23:45.270Z"
+        },
+        "0003": {
+            "createdAt": "2021-04-15T07:52:08.656Z"
+        },
+    },
+    "members": {
+        "0000": {
+            "userID": "0000",
+            "chatroomID": "0000",
+            "createdAt": "2021-03-14T23:54:42.637Z"
+        },
+        "0001": {
+            "userID": "0001",
+            "chatroomID": "0000",
+            "createdAt": "2021-03-14T23:54:43.638Z"
+        },
+        "0002": {
+            "userID": "0002",
+            "chatroomID": "0000",
+            "createdAt": "2021-03-15T10:14:12.278Z"
+        },
+        "0003": {
+            "userID": "0003",
+            "chatroomID": "0000",
+            "createdAt": "2021-03-17T16:43:21.532Z"
+        },
+        "0004": {
+            "userID": "0004",
+            "chatroomID": "0000",
+            "createdAt": "2021-03-17T17:27:54.759Z"
+        },
+        "0005": {
+            "userID": "0000",
+            "chatroomID": "0001",
+            "createdAt": "2021-03-19T11:32:13.886Z"
+        },
+        "0006": {
+            "userID": "0002",
+            "chatroomID": "0001",
+            "createdAt": "2021-03-19T22:11:13.887Z"
+        },
+        "0007": {
+            "userID": "0000",
+            "chatroomID": "0002",
+            "createdAt": "2021-04-12T17:23:46.387Z"
+        },
+        "0008": {
+            "userID": "0001",
+            "chatroomID": "0002",
+            "createdAt": "2021-04-12T17:23:46.537Z"
+        },
+        "0009": {
+            "userID": "0002",
+            "chatroomID": "0002",
+            "createdAt": "2021-04-13T19:38:41.648Z"
+        },
+        "0010": {
+            "userID": "0002",
+            "chatroomID": "0003",
+            "createdAt": "2021-04-15T07:52:09.346Z"
+        },
+        "0011": {
+            "userID": "0003",
+            "chatroomID": "0003",
+            "createdAt": "2021-04-15T07:52:09.673Z"
+        },
+        "0012": {
+            "userID": "0004",
+            "chatroomID": "0003",
+            "createdAt": "2021-04-15T07:52:09.766Z"
+        }
+    },
+    "messages": {
+        "userID": "0000",
+        "chatroomID": "0000",
+        "body": "안녕하세요! 이번 코딩 스터디장 이정주입니다.",
+        "createdAT": 
+    }
+}
