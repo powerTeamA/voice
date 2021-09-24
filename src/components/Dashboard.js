@@ -21,6 +21,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications'
 import { mainListItems, secondaryListItems } from './listItems'
 import Chatlist from './Chatlist'
 import Chatroom from './Chatroom'
+import Logout from './Logout'
 
 function Copyright() {
     return (
@@ -204,6 +205,9 @@ export default function Dashboard() {
                     <Box pt={4}>
                         <Copyright />
                     </Box>
+                </Container>
+                <Container>
+                    <Logout />
                 </Container>
             </main>
         </div>
