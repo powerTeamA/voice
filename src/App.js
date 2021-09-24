@@ -1,27 +1,16 @@
-import logo from './logo.svg'
-import './App.css'
+import React, { useState } from 'react'
+import Dashboard from './components/Dashboard'
+import Login from './components/Login'
+import firebase from 'firebase'
+import firebaseConfig from './firebaseConfig.json'
 
-function App() {
-    const foo = 'HAHAHA'
+export default function App() {
+    firebase.apps.length
+        ? firebase.app()
+        : firebase.initializeApp(firebaseConfig)
 
-    return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
-        </div>
-    )
+    const [user, setUser] = useState(null)
+    firebase.auth().onAuthStateChanged((user) => setUser(user ?? null))
+
+    return user ? <Dashboard /> : <Login />
 }
-
-export default App
